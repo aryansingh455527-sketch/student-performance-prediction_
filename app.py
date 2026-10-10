@@ -3,7 +3,8 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
-from sklearn.linear_model import LinearRegression, LogisticRegression
+
+
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, r2_score, accuracy_score
 
