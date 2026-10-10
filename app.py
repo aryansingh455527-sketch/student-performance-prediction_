@@ -5,9 +5,6 @@ import pandas as pd
 import streamlit as st
 
 
-
-from sklearn.metrics import mean_absolute_error, r2_score, accuracy_score
-
 st.set_page_config(page_title="Student Performance Prediction", page_icon="🎓", layout="centered")
 
 st.title("🎓 Student Performance Prediction")
