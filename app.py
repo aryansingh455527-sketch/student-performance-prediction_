@@ -11,7 +11,7 @@ st.set_page_config(page_title="Student Performance Prediction", page_icon="🎓"
 st.title("🎓 Student Performance Prediction")
 st.write("Enter student details to estimate the final exam score and Pass/Fail status.")
 
-DATA_PATHS = [Path("archive (1).zip"), Path("archive.zip"), Path("students.csv"), Path("student_data.csv")]
+DATA_PATHS = [Path("archive (1).zip"), Path("archive (1).zip"), Path("students.csv"), Path("student_data.csv")]
 FEATURES = [
     "attendance_percentage",
     "assignment_completion_rate",
